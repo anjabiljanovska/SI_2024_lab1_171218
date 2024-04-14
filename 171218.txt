@@ -1,0 +1,23 @@
+1. Install-irav Git i napraviv moj profil
+2. Go promeniv imeto na glavnata granka od main vo master
+3. Na Github dodadov nov repo so klik na kopcheto 'New', imenuvajki go "SI_2024_lab1_171218"
+4. Napraviv lokalen direktorium so istoto ime koristejkji ja komandata 'mkdir'. Vlegov vo direktoriumot so 'cd' i imeto na direktoriumot i go inicijaliziram git so 'git init'.
+5. Povrzuvam lokalen direktorium so remote repo koristejkji "git remote add origin https://github.com/anjabiljanovska/SI_2024_lab1_171218"
+6. Dodadov nov file koristejkji "notepad README.md" gi vnesov svoite podatoci. Potoa se obidov da napravam 'git add' i 'git commit -m "Initial commit" no dobiv error: "Please tell me who you are"
+ja iskoristiv komandata 'git config --user.email "anja.biljanovska@students.finki.ukim.mk" i potoa so 'git add' i 'git commit' napraviv uspesen commit.
+7. Gi prezemav filovite od linkovite i gi dodadov vo lokalniot repozitorium, potoa gi dodadov so komandata 'git add *java'
+Napraviv 'git commit -m "Add starter code"
+8. Sinhronizacija na grankite so remote repo napraviv so komandata 'git push origin master' 
+Korekcii koi treba da se napravat:
+A. if (el.length() % 2 == 0) {result.add(el);} se zamenuva so -> el.lenght() % 2 == 1
+B. el.length() < minLength se zamenuva so -> el.length() < = minLength
+9. Kreiranje na 2 granki: 'git checkout -b bug1' i 'git checkout -b bug2'
+10. Se prefrlam na grankata bug1 so 'git checkout bug1'
+11. Ja popravam greshkata so 'notepad SILab1_1.java' i potoa pravam 'git commit -m "dadenata poraka"'
+12. se prefrlam na grankata bug2 so 'git checkout bug2'
+13. Ja popravam greshkata so 'notepad SILab1_2.java' i pravam 'git commit -m "dadenata poraka"'
+14. se vrakjam na grankata bug1 so 'git checkout bug1'
+15. go dodavam kodot vo main.java so 'notepad SILab1Main' i pravam commit so dadenata poraka
+16. se vrakjam na grankata bug2 so 'git checkout bug2'
+17.
+18.
