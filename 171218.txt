@@ -6,7 +6,7 @@
 6. Dodadov nov file koristejkji "notepad README.md" gi vnesov svoite podatoci. Potoa se obidov da napravam 'git add' i 'git commit -m "Initial commit" no dobiv error: "Please tell me who you are"
 ja iskoristiv komandata 'git config --user.email "anja.biljanovska@students.finki.ukim.mk" i potoa so 'git add' i 'git commit' napraviv uspesen commit.
 7. Gi prezemav filovite od linkovite i gi dodadov vo lokalniot repozitorium, potoa gi dodadov so komandata 'git add *java'
-Napraviv 'git commit -m "Add starter code"
+Napraviv 'git commit -m "Add starter code"'
 8. Sinhronizacija na grankite so remote repo napraviv so komandata 'git push origin master' 
 Korekcii koi treba da se napravat:
 A. if (el.length() % 2 == 0) {result.add(el);} se zamenuva so -> el.lenght() % 2 == 1
@@ -17,7 +17,22 @@ B. el.length() < minLength se zamenuva so -> el.length() < = minLength
 12. se prefrlam na grankata bug2 so 'git checkout bug2'
 13. Ja popravam greshkata so 'notepad SILab1_2.java' i pravam 'git commit -m "dadenata poraka"'
 14. se vrakjam na grankata bug1 so 'git checkout bug1'
-15. go dodavam kodot vo main.java so 'notepad SILab1Main' i pravam commit so dadenata poraka
+15. go dodavam kodot vo SILab1Main.java so 'notepad SILab1Main' i pravam commit so dadenata poraka
 16. se vrakjam na grankata bug2 so 'git checkout bug2'
-17.
-18.
+17. go dodavam kodot vo SILab1Main so 'notepad SILab1Main' i pravam commit so dadenata poraka.
+18. Sinhronizacija na site granki so remote repo so 'git push --all'
+19. koristam 'git checkout master'
+20. koristam 'git merge bug1'
+дали се случиле конфликти при извршување на наредбата - ne
+- ако се случиле, како сте ги решиле -ne se sluchi konflikt
+- која стратегија била употребена за да се изврши спојувањето - fast forward
+21. sinhronizacija koristejkji 'git push --all'
+22. se prefrlam na bug2 'git checkout bug2'
+23. 'git rebase master' mi najde error:
+konfliktot go reshiv so toa shto gi trgnav dodadenite znaci za konflikt i gi ostaviv 2te poraki koi gi dodadovme vo 2ta posebni bugs, i napraviv git add 'SILab1Main.java' i eden commit so poraka "Merge branch conflict".
+24. 'git checkout master'
+25. 'git merge bug2' -ne naidov na konflikt otkako go reshiv konfliktot vo prethodniot chekor
+26. sinhronizacija koristejkji 'git push --all'
+27. koristejkji 'git push --all --force' dobiv odgovor: Everything up-to-date
+28. dodavam datoteka logs.txt koristejkji: 'git log > logs.txt', pravam 'git add logs.txt' i pravam 'git commit -m "Final commit."'
+29. sinhronizacija so 'git push --all' 
