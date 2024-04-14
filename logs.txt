@@ -1,0 +1,42 @@
+commit 577ef16478020dcc74338c38e80a29025875c8aa
+Merge: 7e8767b d07f410
+Author: Anja <anja.biljanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 18:59:00 2024 +0200
+
+    Merge branch conflict
+
+commit d07f410bdd0613a3a410e67f10d13291f11f5742
+Author: Anja <anja.biljanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 18:37:06 2024 +0200
+
+    Call method makeBigStringFrom in main class.
+
+commit 7e8767bfbdd5e029ed4b203f2f3504fc49ed8d5d
+Author: Anja <anja.biljanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 18:35:51 2024 +0200
+
+    Call method filterOddLengthStrings in main class.
+
+commit b11954adc2afb179a05aed5f58aa8739170fcd82
+Author: Anja <anja.biljanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 18:33:26 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom.
+
+commit 1122cec4134e17df3e8b4851ad7c6935ae41b779
+Author: Anja <anja.biljanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 18:31:44 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings.
+
+commit 532f615e35a08540bbe90680fe10b6ca9643f3a3
+Author: Anja <anja.biljanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 18:28:50 2024 +0200
+
+    Add starter code.
+
+commit af09a61aacc8a9bfce3dcbd20566d1efe0174b99
+Author: Anja <anja.biljanovska@students.finki.ukim.mk>
+Date:   Sun Apr 14 18:27:42 2024 +0200
+
+    Initial commit.
